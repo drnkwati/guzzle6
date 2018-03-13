@@ -25,7 +25,7 @@
     "require": {
         "php": ">=5.3.29",
         "ehough/generators": "^1.0",
-        "drnkwati/psr7": "^1.4.2@dev",
+        "drnkwati/psr7": "dev-master",
         "drnkwati/promises": "dev-master"
     },
     "require-dev": {

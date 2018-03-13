@@ -1,0 +1,61 @@
+{
+    "name": "drnkwati/guzzle6",
+    "type": "library",
+    "description": "PHP 5.3-compatible fork of Guzzle 6",
+    "keywords": ["framework", "http", "rest", "web service", "curl", "client", "HTTP client"],
+    "homepage": "http://guzzlephp.org/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Dowling",
+            "email": "mtdowling@gmail.com",
+            "homepage": "https://github.com/mtdowling"
+        },
+        {
+            "name": "Eric Hough",
+            "email": "eric@tubepress.com",
+            "homepage": "https://github.com/ehough"
+        },
+        {
+            "name": "Nkwati Divine",
+            "email": "drnkwati@gmail.com",
+            "homepage": "http://dnkwati.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.29",
+        "ehough/generators": "^1.0",
+        "drnkwati/psr7": "^1.4.2@dev",
+        "drnkwati/promises": "dev-master"
+    },
+    "require-dev": {
+        "ext-curl": "*",
+        "phpunit/phpunit": "^4.0",
+        "psr/log": "^1.0"
+    },
+    "autoload": {
+        "files": ["src/functions_include.php"],
+        "psr-4": {
+            "GuzzleHttp\\Guzzle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "GuzzleHttp\\Guzzle\\Test\\": "tests/"
+        }
+    },
+    "suggest": {
+        "psr/log": "Required for using the Log middleware"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "6.0-dev"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

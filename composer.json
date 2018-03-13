@@ -25,8 +25,8 @@
     "require": {
         "php": ">=5.3.29",
         "ehough/generators": "^1.0",
-        "drnkwati/psr7": "dev-master",
-        "drnkwati/promises": "dev-master"
+        "drnkwati/guzzle-psr7": "dev-master",
+        "drnkwati/guzzle-promises": "dev-master"
     },
     "require-dev": {
         "ext-curl": "*",
